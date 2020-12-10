@@ -1,0 +1,21 @@
+#container form label{
+    color: #34bf8d;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form div {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.button button{
+    padding: 3px 12px;
+    border-radius: 5px; 
+}

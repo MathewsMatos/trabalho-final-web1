@@ -1,0 +1,15 @@
+.w-layout-grid.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#por-que-participar, #pode-ser-descartado, #nao-descartado, #como-participar, #o-que-e {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+#por-que-participar h1, #pode-ser-descartado h1, #nao-descartado h1, #como-participar h1, #o-que-e h1 {
+    color: #34bf8d;
+}
+

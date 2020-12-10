@@ -1,0 +1,161 @@
+*{
+    font-size: 18px;
+}
+
+#conteudo {
+    width: 80%;
+    margin: auto;   
+}
+
+#conteudo .destaques-gcy-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteudo .destaques-gcy-2 .div-destaques{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#conteudo .destaques-gcy-2 .destaques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+
+#conteudo .destaques-gcy-2 .destaques .div-destaques1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    background-color: #005be8;
+    border-radius: 10px;
+    color: white;
+    height: 300px;
+    margin-right: 15px;
+    
+    
+}
+
+#conteudo .destaques-gcy-2 .destaques .div-destaques1 .titulo-destaques1{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 1px;
+}
+
+#conteudo .destaques-gcy-2 .div-destaques1 .imagem-destaques1 img{
+    width: 280px;
+}
+
+
+#conteudo .destaques-gcy-2 .div-destaques2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: #a1ca3b;
+    border-radius: 10px;
+    color: white;
+    height: 300px;
+    margin-right: 15px;
+    
+}
+
+#conteudo .destaques-gcy-2 .div-destaques2 .titulo-destaques2{
+    text-align: center;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#conteudo .destaques-gcy-2 .div-destaques3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-color:#ea1851;
+    border-radius: 10px;
+    color: white;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteudo .destaques-gcy-2 .div-destaques3 .titulo-destaques3{
+    padding-top: 10px;
+    line-height: 35px;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#conteudo .destaques-gcy-2 .div-destaques3 .imagem-destaques3 img{
+    height: 130px;
+    
+}
+
+#conteudo .lista-produtos-parceiros {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+#conteudo .lista-produtos-parceiros .box-produto-parceiro {
+    display: flex;
+    border-radius: 6px;
+    box-shadow: 1px 1px 9px 0 rgba(131, 147, 177, 0.4);
+    padding: 5px;
+    
+}
+
+#conteudo .lista-produtos-parceiros2 {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    margin-right: 5px;
+}
+
+#conteudo .lista-produtos-parceiros2 .box-produto-parceiro {
+    display: flex;
+    border-radius: 6px;
+    box-shadow: 1px 1px 9px 0 rgba(131, 147, 177, 0.4);
+    padding: 5px;
+    
+}
+
+#conteudo .lista-produtos-parceiros2 .box-produto-parceiro .div-box-1 .pontos-produto-parceiro {
+    background-color: royalblue;
+    color: white;
+}
+
+#conteudo .lista-produtos-parceiros .box-produto-parceiro .div-box-1 .pontos-produto-parceiro {
+    background-color: royalblue;
+    color: white;
+}
+
+#conteudo .lista-produtos-parceiros .box-produto-parceiro .div-box-1 .pontos-produto-parceiro-3 {
+    background-color: royalblue;
+    color: white;
+}
+
+#conteudo .lista-produtos-parceiros2 .box-produto-parceiro .div-box-1 .pontos-produto-parceiro-copy {
+    background-color: royalblue;
+    color: white;
+}
+
+#conteudo .lista-produtos-parceiros2 .box-produto-parceiro .div-box-1 .pontos-produto-parceiro-2 {
+    background-color: royalblue;
+    color: white;
+}

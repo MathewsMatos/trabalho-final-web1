@@ -1,0 +1,70 @@
+#como-funciona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#como-funciona .title-gcy-1 {
+    color: #34bf8d;
+}
+
+.etapas-pontos-gcy {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.item-etapas-pontos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 21px;
+    margin-left: 21px;
+    width: 210px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.icone-pontos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://uploads-ssl.webflow.com/5d9df76125b5e78cf08b6e8d/5d9e370306b4389f35f32846_icone-pontos.png);
+    width: 80px;
+    height: 76px;
+}
+
+.text-block-3 {
+    font-weight: 700;
+    color: #34bf8d;
+    font-size: 30px;
+}
+
+.txt-etapas-pontos {
+    color: #5c5c5c;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.titulo-etapas-pontos {
+    color: #34bf8d;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.btn-cadastre-home {
+    display: flex;
+    background-color: #a1ca3b;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+
+}

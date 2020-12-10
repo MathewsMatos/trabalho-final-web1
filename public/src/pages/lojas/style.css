@@ -1,0 +1,46 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-lojas {
+    color: #34bf8d;
+    width: 80%;
+    font-weight: 700;
+}
+
+.subtitulo-lojas {
+    color: #5c5c5c;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+#box-lojas-gcycle {
+    width: 70%;
+}
+
+#Loja-estacao {
+    margin-bottom: 30px;
+}
+
+#Loja-pantanal {
+    margin-bottom: 30px;
+}
+
+#Loja-vgshop {
+    margin-bottom: 30px;
+}
+
+.nome-loja-gcy, .bairro-loja-gcy, .endereco-loja-gcy-2, .funcionamento-loja-gcy {
+    color: #34bf8d;
+}
+
+.box-funcionamento-loja-gcy, .box-reabertura-loja-gcy {
+    color: #5c5c5c;
+}
+
+.box-funcionamento-loja-gcy {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

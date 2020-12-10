@@ -1,0 +1,89 @@
+.lista-de-embalagens {
+    display: flex;
+    justify-content: center;
+}
+
+.box-produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.titulo-botao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.titulo-dos-produtos {
+    color: #34bf8d;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button-2.w-button {
+    text-decoration: none;
+    background-color: #a1ca3b;
+    border-radius: 20px;
+    padding: 9px 15px;
+    color: white;
+}
+
+.text-block-11 {
+    color: #5c5c5c;
+    margin-bottom: 40px;
+}
+
+.lista-de-produtos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.lista-de-produtos .produto {
+    display: flex;
+    width: 19%;
+    height: 240px;
+    box-shadow: 0 1px 8px 0px rgba(0, 0, 0, 1); 
+    border-radius: 20px;  
+    margin-right: 10px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-de-produtos .produto .imagem-produto { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.lista-de-produtos .produto .imagem-produto img{
+    max-width: 80px;
+    max-height: 100px;
+}
+
+.lista-de-produtos .produto .logo-parceiro img{
+    max-width: 70px;
+    max-height: 50px;
+}
+
+.lista-de-produtos .produto .pontuacao {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    background-color: #34bf8d;
+    border-radius: 4px;
+    padding: 2px 2px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.lista-de-produtos .produto .nome-do-produto,.volume-do-produto {
+    color: #34bf8d;
+    font-weight: 700;
+}

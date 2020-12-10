@@ -1,0 +1,49 @@
+#header {
+    background-color:#3d5459;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+#header .header_logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#header .header_logo h1 {
+    color: white;
+    
+}
+
+#header .header_logo img {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+#header .header_menu{
+    margin-right: 100px;
+}
+
+#header ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#header ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: white;
+}
+

@@ -1,0 +1,73 @@
+.box-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-botao {
+    width: 80%;
+}
+
+.titulo-dos-resgates {
+    color: #34bf8d;
+    font-weight: 700;
+}
+
+.text-block-11 {
+    width: 80%;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+}
+
+.resgates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.resgate {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 1px 12px 5px rgba(0,0,0,.1);
+    margin-right: 20px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.resgate .imagem-resgate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resgate img {
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.button-3.w-button {
+    background-color: #34bf8d;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 6px 18px;
+    border-radius: 15px;
+    font-weight: 550;
+}
+
+.nome-do-resgate {
+    color: #5c5c5c;
+}
+
+.pontuacao-resgate {
+    color: #34bf8d;
+}
